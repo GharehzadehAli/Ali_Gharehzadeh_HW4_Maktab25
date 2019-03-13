@@ -1,22 +1,47 @@
 package com.company;
 
-public class ConvertMessage {
-    private static String input_string;
-    private static int input_int;
+import java.util.Scanner;
 
-    public char encrypt(char letter) {
-        char new_char = (char) (input_int + (int) letter);
-        return new_char;
+public class ConvertMessage {
+    Scanner scanner = new Scanner(System.in);
+    private String message;
+    private int code;
+
+    public void getMessage() {
+        System.out.println("Enter the message");
+        this.message = scanner.nextLine();
+
     }
 
-    public String encryptAll(String input_string){
-        char[] chars=new char[input_string.length()];
-        for (int i=0;i<input_string.length();i++){
-            if(chars[i]!=' '){
-                chars[i]=encrypt(chars[i]);
+    public void getCode() {
+        do {
+            System.out.println("Enter a number more than -1");
+            this.code = scanner.nextInt();
+        }
+        while (this.code < 0);
+    }
+
+    public char encrypt(char letter) {
+        char new_char = (char) (this.code + (int) letter);
+        // System.out.println(new_char);
+        return new_char;
+
+    }
+
+    public void encryptAll() {
+
+        getMessage();
+        char[] chars;
+        chars = this.message.toCharArray();
+        getCode();
+
+        for (int i = 0; i < this.message.length(); i++) {
+            if (chars[i] != ' ') {
+                chars[i] = encrypt(chars[i]);
+
+
             }
         }
-        String new_string=chars.toString();
-        return new_string;
+        System.out.println(chars);
     }
 }
