@@ -10,7 +10,7 @@ public class Billing {
 
         double total_price=price*quantity;
         double tax= 8.0 / 100 * total_price;
-        double total = total_price +tax;
+        double total = total_price +tax; 
         return total;
     }
 
