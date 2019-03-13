@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="994630ce-cc2a-4791-8079-dcc034300814" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../BloodData/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BloodData/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BloodData/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BloodData/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BloodData/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BloodData/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BloodData/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BloodData/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BloodData/TestBloodData.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BloodData/out/production/TestBloodData/com/company/BloodData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BloodData/out/production/TestBloodData/com/company/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BloodData/src/com/company/BloodData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BloodData/src/com/company/TestBloodData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Patient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/TestPatient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/TestPatient.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/TestPatient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="14" selection-start-column="14" selection-end-column="14" />
+            <state relative-caret-position="231">
+              <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -38,8 +27,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Patient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="546">
+              <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+              <folding>
+                <element signature="e#349#350#0" expanded="true" />
+                <element signature="e#381#382#0" expanded="true" />
+                <element signature="e#408#409#0" expanded="true" />
+                <element signature="e#434#435#0" expanded="true" />
+                <element signature="e#460#461#0" expanded="true" />
+                <element signature="e#485#486#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -53,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/TestBloodData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="294">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -77,8 +74,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/TestPatient.java" />
         <option value="$PROJECT_DIR$/src/com/company/Patient.java" />
+        <option value="$PROJECT_DIR$/src/com/company/TestPatient.java" />
       </list>
     </option>
   </component>
@@ -123,7 +120,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552476605509" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552477604403" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -148,6 +145,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -159,24 +161,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552476058118</updated>
-      <workItem from="1552476059611" duration="639000" />
+      <workItem from="1552476059611" duration="1551000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="639000" />
+    <option name="totallyTimeSpent" value="1551000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17776585" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17776585" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
@@ -184,7 +186,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3295583" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -204,17 +206,10 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/TestPatient.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/TestBloodData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Patient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="294">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
@@ -225,10 +220,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/TestBloodData.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Patient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="546">
+          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+          <folding>
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/TestPatient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
         </state>
       </provider>
     </entry>
